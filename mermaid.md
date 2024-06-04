@@ -4,7 +4,7 @@ flowchart LR
     B-->C
     C-->D
     click A callback "Tooltip for a callback"
-    click B "test.md" _blank
+    click B "https://github.com/JackyMO/sample/blob/master/test.md" _blank
     click C call callback() "Tooltip for a callback"
     click D href "test.md" _blank
 ```
